@@ -1,0 +1,162 @@
+body {
+    background-color: #282828;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+	background-image: url('image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#header {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+#header .poker {
+	padding: 10px 5px;
+    color: red;
+}
+
+#header .club {
+    color: white;
+    font-weight: bold;
+}
+
+#player-entry label {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#playerName {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid #64C864;
+    border-radius: 5px;
+    background-color: #282828;
+    color: white;
+    outline: none;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #64C864;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #56B056;
+}
+
+#poker-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#cards .card {
+    margin: 5px;
+}
+
+#cards .card img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#players-db {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#playerList {
+    margin-top: 10px;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+}
+
+/* Добавление стилей для кнопки очистки базы данных */
+#players-db button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+#player-entry {
+    margin-bottom: 20px;
+}
+
+#poker-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards {
+    margin-bottom: 20px;
+}
+
+#player-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#player-cards .card {
+    margin: 5px;
+}
+
+#player-cards .card img {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+}
